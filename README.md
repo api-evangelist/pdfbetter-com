@@ -1,4 +1,4 @@
-# pdfbetter-com
+# PDFBetter
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pdfbetter-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pdfbetter.com/
+PDFBetter provides an AI‑native PDF editor that enables users to edit, fill, sign, redact, translate, and convert PDF documents via natural‑language commands. The service integrates with Google Drive, Dropbox, Zapier and other apps, offering automation and workflow capabilities while allowing users to approve each AI‑suggested change. This platform targets individuals and teams needing fast, intelligent PDF manipulation.
+
+**Areas:** Company · AI · PDF · Editor · Automation
+
+## PDFBetter on APIs.io
+
+Everything profiled for PDFBetter is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pdfbetter-com/](https://apis.io/providers/pdfbetter-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [PDFBetter Bulk fill API](https://apis.io/apis/pdfbetter-com/pdfbetter-com-bulk-fill-api/) — Fill one document per spreadsheet row.
+- [PDFBetter Documents API](https://apis.io/apis/pdfbetter-com/pdfbetter-com-documents-api/) — Create documents from a file, a URL or a template; fill fields; export PDFs.
+- [PDFBetter Forms API](https://apis.io/apis/pdfbetter-com/pdfbetter-com-forms-api/) — Read published forms and their responses.
+- [PDFBetter Signature requests API](https://apis.io/apis/pdfbetter-com/pdfbetter-com-signature-requests-api/) — Send documents for e-signature and track every step.
+- [PDFBetter Templates API](https://apis.io/apis/pdfbetter-com/pdfbetter-com-templates-api/) — Your reusable templates and the PDFBetter template library.
+- [PDFBetter Webhook endpoints API](https://apis.io/apis/pdfbetter-com/pdfbetter-com-webhook-endpoints-api/) — Receive signed event notifications.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Pdfbetter Com Webhooks](https://apis.io/asyncapis/pdfbetter-com/pdfbetter-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PDFBetter Agentic Access](https://apis.io/agentic-access/pdfbetter-com/pdfbetter-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [FieldList](https://apis.io/schemas/pdfbetter-com/pdfbetter-com-field-list/)
+- [Job](https://apis.io/schemas/pdfbetter-com/pdfbetter-com-job/)
+- [Reminder](https://apis.io/schemas/pdfbetter-com/pdfbetter-com-reminder/)
+- [SignatureRequest](https://apis.io/schemas/pdfbetter-com/pdfbetter-com-signature-request/)
+- [SignatureRequestDetail](https://apis.io/schemas/pdfbetter-com/pdfbetter-com-signature-request-detail/)
+- [SignatureRequestList](https://apis.io/schemas/pdfbetter-com/pdfbetter-com-signature-request-list/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pdfbetter Com Context](https://apis.io/jsonld/pdfbetter-com/pdfbetter-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PDFBetter API Rules](https://apis.io/rules/pdfbetter-com/pdfbetter-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PDFBetter Authentication](https://apis.io/security/pdfbetter-com/pdfbetter-com-authentication/)
+- [PDFBetter Domain Security](https://apis.io/security/pdfbetter-com/pdfbetter-com-domain-security/)
+- [PDFBetter Vulnerability Disclosure](https://apis.io/security/pdfbetter-com/pdfbetter-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PDFBetter Plans Pricing](https://apis.io/plans/pdfbetter-com/pdfbetter-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pdfbetter.com/)
+- [Documentation](https://pdfbetter.com/developers/)
+- [Getting started](https://help.pdfbetter.com/getting-started/)
+- [API reference](https://pdfbetter.com/changelog/)
+- [Pricing](https://pdfbetter.com/pricing/)
+- [Support](https://help.pdfbetter.com/)
+- [Blog](https://pdfbetter.com/blog/)
+- [Security](https://pdfbetter.com/security/)
+- [Terms of service](https://pdfbetter.com/terms/)
+- [Privacy policy](https://pdfbetter.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 62.2** — strong · rubric 0.28.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 73.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 16.7 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 59.1 |
+
+**Agent readiness 71.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pdfbetter-com/](https://apis.io/providers/pdfbetter-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PDFBetter: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pdfbetter-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
